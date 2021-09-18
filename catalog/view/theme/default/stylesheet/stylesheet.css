@@ -89,12 +89,11 @@ header {
 /* top */
 #top {
 	background-color: #211e1b;
-	padding: 4px 0px 3px 0;
 	line-height: 44px;
 	height: 44px;
 }
 #top .container {
-	padding: 0 20px;
+	display: flex;
 }
 #top #form-currency .currency-select,
 #top #form-language .language-select {
