@@ -38,12 +38,13 @@
   {% endfor %}
 </head>
 <body>
-<nav id="top" class="navbar fixed-top navbar-light bg-dark text-uppercase justify-content-end m-0 p-0">
-  <div class="row">
-    <div class="col">
-    <div class="col d-flex justify-content-end">
+<navbar
+  <nav id="top" class="navbar fixed-top navbar-light bg-dark text-uppercase justify-content-end m-0 p-0">
+    <div class="row">
+      <div class="col"></div>
+      <div class="col d-flex justify-content-end">
       {{ currency }}
-    </div>
+      </div>
     {# {{ language }} #}
     {# <div id="top-links" class="nav"> 
       <ul class="list-inline">
@@ -68,9 +69,9 @@
       </ul>
     </div>
     #}
-  </div>
-</nav>
-<header class="navbar fixed-top navbar-expand-lg navbar-light bg-dark text-uppercase justify-content-end m-0 p-0">
+    </div>
+  </nav>
+  <header class="navbar fixed-top navbar-expand-lg navbar-light bg-dark text-uppercase justify-content-end m-0 p-0">
     <div class="row">
       <div class="col-sm-2">
         <div id="logo">{% if logo %}<a href="{{ home }}"><img src="{{ logo }}" title="{{ name }}" alt="{{ name }}" class="img-responsive" /></a>{% else %}
@@ -83,4 +84,5 @@
       </div>
       <div class="col-sm-2">{{ cart }}</div>
     </div>
-</header>
+  </header>
+</navbar>
