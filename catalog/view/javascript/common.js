@@ -126,6 +126,8 @@ $(document).ready(function() {
 		}
 	});
 
+	$('.dropdown-toggle').dropdown()
+
 	// tooltips on hover
 // 	$('[data-toggle=\'tooltip\']').tooltip({container: 'body'});
 
