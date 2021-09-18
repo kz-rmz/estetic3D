@@ -90,7 +90,8 @@ header {
 #top {
 	background-color: #211e1b;
 	padding: 4px 0px 3px 0;
-	min-height: 40px;
+	line-height: 44px;
+	height: 44px;
 }
 #top .container {
 	padding: 0 20px;
