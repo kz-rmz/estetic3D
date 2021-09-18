@@ -82,6 +82,8 @@ div.required .control-label:before {
 
 header {
 	background-color: rgba(45,45,45,0.98);
+	line-height: 64px;
+	height: 64px;
 }
 
 /* top */
