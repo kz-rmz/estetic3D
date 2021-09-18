@@ -1,0 +1,6 @@
+2021-09-16 20:46:36 - PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /Applications/XAMPP/xamppfiles/htdocs/system/library/db/mysqli.php on line 8
+2021-09-16 20:47:04 - PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /Applications/XAMPP/xamppfiles/htdocs/system/library/db/mysqli.php on line 8
+2021-09-16 20:48:42 - PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /Applications/XAMPP/xamppfiles/htdocs/system/library/db/mysqli.php on line 8
+2021-09-16 20:52:12 - PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /Applications/XAMPP/xamppfiles/htdocs/system/library/db/mysqli.php on line 8
+2021-09-16 20:52:33 - PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /Applications/XAMPP/xamppfiles/htdocs/system/library/db/mysqli.php on line 8
+2021-09-16 20:56:30 - PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /Applications/XAMPP/xamppfiles/htdocs/system/library/db/mysqli.php on line 8
