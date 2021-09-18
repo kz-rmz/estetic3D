@@ -86,15 +86,16 @@ header {
 	height: 64px;
 }
 
+
 /* top */
 #top {
 	background-color: #211e1b;
-	line-height: 44px;
-	height: 44px;
 }
-#top .container {
-	display: flex;
+
+.header__twig-currencies {
+	margin-left: auto;
 }
+
 #top #form-currency .currency-select,
 #top #form-language .language-select {
 	text-align: left;
@@ -126,7 +127,7 @@ header {
         line-height: 14px;
 }
 #top-links {
-	padding-top: 6px;
+	
 }
 #top-links a + a {
 	margin-left: 15px;
