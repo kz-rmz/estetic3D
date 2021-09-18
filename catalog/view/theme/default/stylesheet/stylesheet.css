@@ -111,6 +111,7 @@ header {
 #top .btn-link, #top-links li, #top-links a {
 	color: rgba(199,199,199,0.96);
 	text-decoration: none;
+	text-transform: uppercase;
 }
 #top .btn-link:hover, #top-links a:hover {
 	color: #444;
