@@ -126,9 +126,7 @@ header {
 	font-size: 14px;
         line-height: 14px;
 }
-#top-links {
-	
-}
+
 #top-links a + a {
 	margin-left: 15px;
 }
