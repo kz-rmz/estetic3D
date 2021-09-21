@@ -1,7 +1,7 @@
-#top {
-  height: 1rem;
+#top__selector {
+  background-color: #211e1b;
 }
 
-header {
-  margin-top: 1rem;
+#top__header {
+  background-color: rgba(45,45,45,0.98);
 }
