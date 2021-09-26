@@ -11,7 +11,7 @@
             {% for children in category.children|batch(category.children|length / category.column|round(1, 'ceil')) %}
               {% for child in children %}
                 <a class="dropdown-item" href="{{ child.href }}">{{ child.name }}</a>
-                <a class="dropdown-item see-all" href="{{ category.href }}">{{ text_all }} {{ category.name }}</a>
+                {# <a class="dropdown-item see-all" href="{{ category.href }}">{{ text_all }} {{ category.name }}</a> #}
               {% endfor %}
             {% endfor %}
           </div>
