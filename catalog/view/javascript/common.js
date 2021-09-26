@@ -1,3 +1,5 @@
+
+
 function getURLVar(key) {
 	var value = [];
 
