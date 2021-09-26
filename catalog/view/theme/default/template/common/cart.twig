@@ -1,18 +1,41 @@
-<div id="cart">
+{# <div id="cart">
 
-</div>
+  <div class="dropdown">
 
+  	<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa fa-shopping-cart"></i>
+  	</button>
 
+  	<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+      {% if products or vouchers %}
+        <li>
+          <a class="dropdown-item" href="#">Action</a>
+        </li>
 
+  		<li>
+  			<a class="dropdown-item" href="#">Another action</a>
+  		</li>
+  		<li>
+  			<a class="dropdown-item" href="#">Something else here</a>
+  		</li>
+  	</ul>
 
+  </div>
 
-
-
+</div> #}
 
 
 
 <div id="cart" class="btn-group btn-block">
-  <button type="button" data-toggle="dropdown" data-loading-text="{{ text_loading }}" class="btn btn-inverse btn-block btn-lg dropdown-toggle"><i class="fa fa-shopping-cart"></i> <span id="cart-total">{{ text_items }}</span></button>
+  <button type="button" 
+          data-toggle="dropdown"
+          data-loading-text="{{ text_loading }}"
+          class="btn btn-inverse btn-block btn-lg dropdown-toggle">
+            <i class="fa fa-shopping-cart"></i>
+            {# <span id="cart-total">{{ text_items }}</span> #}
+  </button>
+
+
   <ul class="dropdown-menu">
     {% if products or vouchers %}
     <li>

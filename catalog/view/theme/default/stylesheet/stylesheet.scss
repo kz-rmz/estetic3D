@@ -1,0 +1,57 @@
+//----------Additional top selector----------//
+
+.top__selector {
+  background-color: #211e1b;
+}
+
+//----------Header----------//
+
+.top__header {
+  background-color: rgba(45,45,45,0.98);
+  height: 5rem;
+  // font-size: 1.2rem;
+  text-transform: uppercase;
+  font-size: .8rem;
+  @media screen and(min-width: 992px) {
+    font-size: 1rem;
+  }
+  .nav-link {
+    color: #fff;
+  }
+  .dropdown-menu {
+    background-color: rgba(45,45,45,0.98);
+    a {
+      font-size: .8rem;
+      color: #fff;
+      &:hover {
+        background-color: rgba(34, 34, 34, 0.98);
+      }
+
+    }
+  }
+}
+  // Remover Dropdown Arrows
+
+  // .dropdown-toggle::after {
+  //   content: none;
+  // }
+  .btn {
+    color: #fff;
+  }
+
+.top__phone {
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+.fixed {
+  line-height: 50px;
+  height: 50px;
+}
+//------------Common section------------//
+
+.common__image {
+  background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(./../../../../../image/catalog/kovriki-main.jpg) center center / cover no-repeat;
+}

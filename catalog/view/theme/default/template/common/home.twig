@@ -1,14 +1,39 @@
 {{ header }}
-<div id="common-home" class="container">
-  <div class="row">{{ column_left }}
-    {% if column_left and column_right %}
-    {% set class = 'col-sm-6' %}
-    {% elseif column_left or column_right %}
-    {% set class = 'col-sm-9' %}
-    {% else %}
-    {% set class = 'col-sm-12' %}
-    {% endif %}
-    <div id="content" class="{{ class }}">{{ content_top }}{{ content_bottom }}</div>
-    {{ column_right }}</div>
-</div>
+
+<section class="common">
+  <div class="common__image p-5 text-white d-flex align-items-center vh-100">
+      <div class="container-fluid container-lg">
+        <h1 class="display-5 fw-bold">Производство и продажа <br> автоковриков из экокожи</h1>
+        <p class="col-md-8 fs-5 mt-5">Доставка по Казахстану и СНГ</p>
+        <p class="col-md-8 fs-5">Изготовление за 2 дня</p>
+        <p class="col-md-8 fs-5 mb-5">Закрывают 95% штатного ворса</p>
+        <div class="d-grid gap-3 d-md-block">
+          <button class="btn btn-primary me-md-3" type="button">Консультация</button>
+          <button class="btn btn-primary" type="button">Рассчитать стоимость</button>
+        </div>
+      </div>
+  </div>
+
+  <div id="common-home" class="container-fluid container-lg my-5">
+    <div class="row">
+      {{ column_left }}
+        {% if column_left and column_right %}
+        z{% set class = 'col-sm-6' %}
+        z{% elseif column_left or column_right %}
+        {% set class = 'col-sm-9' %}
+        {% else %}
+        {% set class = 'col-sm-12' %}
+        {% endif %}
+  
+      <div id="content" class="{{ class }}">
+        {{ content_top }}
+        {{ content_bottom }}
+      </div>
+  
+      {{ column_right }}
+  
+    </div>
+  </div>
+</section>
+
 {{ footer }}
