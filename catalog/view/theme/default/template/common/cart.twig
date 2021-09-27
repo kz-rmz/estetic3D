@@ -30,7 +30,7 @@
   <button type="button" 
           data-toggle="dropdown"
           data-loading-text="{{ text_loading }}"
-          class="btn btn-inverse btn-block btn-lg dropdown-toggle">
+          class="btn btn-inverse btn-block btn-md dropdown-toggle">
             <i class="fa fa-shopping-cart"></i>
             {# <span id="cart-total">{{ text_items }}</span> #}
   </button>
@@ -80,7 +80,8 @@
     </li>
     {% else %}
     <li>
-      <p class="text-center">{{ text_empty }}</p>
+      {# <p class="text-center">{{ text_empty }}</p> #}
+      <p class="text-center">Корзина пуста</p>
     </li>
     {% endif %}
   </ul>

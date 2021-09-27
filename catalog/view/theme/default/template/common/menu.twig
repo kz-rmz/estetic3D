@@ -5,7 +5,7 @@
       {% if category.children %}
 
         <li class="nav-item dropdown pe-lg-3 pe-1">
-          <a class="nav-link dropdown-toggle" href="{{ category.href }}" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ category.name }}</a>
+          <a class="nav-link dropdown-toggle" href="{{ category.href }}" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-auto-close="true"> {{ category.name }}</a>
 
           <div class="dropdown-menu" aria-labelledby="dropdownId">
             {% for children in category.children|batch(category.children|length / category.column|round(1, 'ceil')) %}
@@ -27,6 +27,9 @@
   </ul>
 </div>
 {% endif %}
+
+
+
 
 {#{% if categories %}
 <div class="container">

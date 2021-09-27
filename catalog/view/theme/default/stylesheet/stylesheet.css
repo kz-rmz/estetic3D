@@ -2,9 +2,31 @@
   background-color: #211e1b;
 }
 
+.offcanvas-header button {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+}
+
+.offcanvas-body > .collapse {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.offcanvas-body > .collapse a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.offcanvas__close-icon {
+  font-size: 36px;
+  background-color: transparent;
+}
+
 .top__header {
   background-color: rgba(45, 45, 45, 0.98);
-  height: 5rem;
+  padding: 0;
   text-transform: uppercase;
   font-size: .8rem;
 }
@@ -30,6 +52,22 @@
 
 .top__header .dropdown-menu a:hover {
   background-color: rgba(34, 34, 34, 0.98);
+}
+
+#logo img {
+  height: 50px;
+}
+
+@media screen and (min-width: 576px) {
+  #logo img {
+    height: 80px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #logo img {
+    height: 90px;
+  }
 }
 
 .btn {
