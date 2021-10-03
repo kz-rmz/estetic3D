@@ -25,6 +25,19 @@ function getURLVar(key) {
 }
 
 $(document).ready(function() {
+		let removeClassBtn = document.querySelector(".closeTab");
+		let listVorsButtons = document.querySelectorAll(".vors");
+		let listVorsPicker = document.querySelectorAll(".vors-picker");
+		removeClassBtn.addEventListener( "click", () => {
+			listVorsButtons.forEach( el => {
+				el.classList.remove("active", "show");
+			});
+			listVorsPicker.forEach( el => {
+				el.classList.remove("active", "show");
+			});
+		})
+
+
 	// Highlight any found errors
 	$('.text-danger').each(function() {
 		var element = $(this).parent().parent();
