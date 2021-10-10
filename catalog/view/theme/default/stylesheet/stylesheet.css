@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .top__selector {
   background-color: #211e1b;
 }
@@ -91,6 +95,8 @@
 
 .common__tab-img {
   position: relative;
+  height: 500px;
+  width: 100%;
 }
 
 .kovriki {
