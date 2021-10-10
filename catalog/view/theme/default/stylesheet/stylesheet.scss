@@ -92,12 +92,16 @@ body {
 
 .common__image {
   background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(./../image/kovriki-main.jpg) center center / cover no-repeat;
+  @media screen and(max-width: 576px){
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(./../image/kovriki-main-sm.jpg) center center / cover no-repeat;
+  }
 }
 
 .common__tab-img {
   position: relative;
   height: 500px;
   width: 100%;
+  overflow: hidden;
 }
 
 .kovriki {
@@ -106,13 +110,16 @@ body {
   position: relative;
   top: 0;
   left: 0;
+  .common__tab-img {
+    object-fit: cover;
+  }
 }
 
 .vors {
   position: absolute;
   height: 500px;
   top: 0;
-  left: 10px;
+  left: 0;
   z-index: 100;
 }
 
