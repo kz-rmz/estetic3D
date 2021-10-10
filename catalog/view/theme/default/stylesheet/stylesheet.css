@@ -103,7 +103,7 @@ body {
 .common__tab-img {
   position: relative;
   height: 500px;
-  width: 100%;
+  width: auto;
   overflow: hidden;
 }
 
@@ -122,6 +122,7 @@ body {
 
 .vors {
   position: absolute;
+  width: auto;
   height: 500px;
   top: 0;
   left: 0;
