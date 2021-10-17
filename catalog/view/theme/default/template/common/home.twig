@@ -26,7 +26,7 @@
                         ./../../../../../../image/material-1-350x350.jpg 350w, 
                         ./../../../../../../image/material-1-600x600.jpg 600w" 
                         sizes="(max-width: 800px) 100vw, 800px" 
-                        src="./../../../../../../image/material-1.jpg" loading="lazy">
+                        src="./../../../../../../image/material-1.jpg">
           </div>
         </div>
       </div>
@@ -379,8 +379,8 @@
     <div class="row">
       {{ column_left }}
         {% if column_left and column_right %}
-        z{% set class = 'col-sm-6' %}
-        z{% elseif column_left or column_right %}
+        {% set class = 'col-sm-6' %}
+        {% elseif column_left or column_right %}
         {% set class = 'col-sm-9' %}
         {% else %}
         {% set class = 'col-sm-12' %}
