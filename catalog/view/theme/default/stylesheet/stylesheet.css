@@ -28,9 +28,20 @@ body {
   background-color: transparent;
 }
 
+.top {
+  display: block;
+  position: relative;
+}
+
+.top__overlay {
+  width: 100%;
+  height: 70px;
+  background-color: #000;
+}
+
 .top__header {
   background-color: rgba(45, 45, 45, 0.98);
-  padding: 0;
+  height: 70px;
   text-transform: uppercase;
   font-size: .9rem;
 }
@@ -77,19 +88,7 @@ body {
 }
 
 #logo img {
-  height: 60px;
-}
-
-@media screen and (min-width: 576px) {
-  #logo img {
-    height: 80px;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  #logo img {
-    height: 90px;
-  }
+  height: 70px;
 }
 
 #cart > .btn:hover {
@@ -161,5 +160,22 @@ body {
 .material > img {
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.common__category {
+  background-color: #000;
+}
+
+.category__img {
+  width: 100%;
+  height: auto;
+}
+
+.breadcrumb {
+  margin: 2rem auto;
+}
+
+.breadcrumb li {
+  padding-left: .4rem;
 }
 /*# sourceMappingURL=stylesheet.css.map */
