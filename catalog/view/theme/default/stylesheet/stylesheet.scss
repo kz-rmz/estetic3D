@@ -123,6 +123,9 @@ body {
   @media screen and(max-width: 576px){
     background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(./../image/kovriki-main-sm.jpg) center center / cover no-repeat;
   }
+  @media screen and(max-width: 992px){
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(./../image/kovriki-main-lg.jpg) center center / cover no-repeat;
+  }
 }
 
 .common__tab-img {
