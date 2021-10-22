@@ -60,8 +60,8 @@
       {% if categories %}
         <div class="row row-cols-2">
           {% for category in categories %}
-            <div class="col my-3">
-              <img src="{{ thumb }}" alt="{{ heading_title }}" title="{{ heading_title }}">
+            <div class="col my-3 product__category-item">
+              <a href="{{ category.href }}"><img src="{{ category.image }}" alt="{{ heading_title }}" title="{{ heading_title }}"></a>
               <p class="my-4">{{ category.name }}</p>
               <a href="{{ category.href }}" class="btn btn-primary">Подробнее</a>
             </div>
