@@ -24,7 +24,7 @@ function getURLVar(key) {
 	}
 }
 
-$(document).ready(function() {
+document.addEventListener("DOMContentLoaded", function(event) {
 		let removeClassBtn = document.querySelector(".closeTab");
 		let listVorsButtons = document.querySelectorAll(".vors");
 		let listVorsPicker = document.querySelectorAll(".vors-picker");
@@ -36,7 +36,9 @@ $(document).ready(function() {
 				el.classList.remove("active", "show");
 			});
 		})
+});
 
+$(document).ready(function() {
 
 	// Highlight any found errors
 	$('.text-danger').each(function() {
