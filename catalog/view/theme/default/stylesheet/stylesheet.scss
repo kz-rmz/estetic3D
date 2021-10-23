@@ -1,6 +1,11 @@
 //----------Additional top selector----------//
+html {
+  height: 100%;
+}
+
 body {
   overflow-x: hidden;
+  height: 100%;
 }
 
 .top__selector {
@@ -148,6 +153,7 @@ body {
 
 .vors {
   position: absolute;
+  overflow-x: hidden;
   width: auto;
   height: 500px;
   top: 0;
