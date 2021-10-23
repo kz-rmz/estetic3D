@@ -190,4 +190,8 @@ body {
   height: auto;
   width: 100%;
 }
+
+.common__custom .nav-link img {
+  border-radius: 50%;
+}
 /*# sourceMappingURL=stylesheet.css.map */

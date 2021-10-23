@@ -189,3 +189,11 @@ body {
   }
 
 }
+
+.common__custom {
+  .nav-link {
+    img {
+      border-radius: 50%;
+    }
+  }
+}
