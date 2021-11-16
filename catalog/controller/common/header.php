@@ -64,6 +64,7 @@ class ControllerCommonHeader extends Controller {
 		$data['search'] = $this->load->controller('common/search');
 		$data['cart'] = $this->load->controller('common/cart');
 		$data['menu'] = $this->load->controller('common/menu');
+		$data['offcanvas'] = $this->load->controller('common/offcanvas');
 
 		return $this->load->view('common/header', $data);
 	}
