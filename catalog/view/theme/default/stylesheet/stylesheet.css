@@ -5,6 +5,7 @@ html {
 body {
   overflow-x: hidden;
   height: 100%;
+  max-width: 100vw;
 }
 
 .top__selector {
